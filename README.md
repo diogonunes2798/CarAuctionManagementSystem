@@ -28,3 +28,11 @@ Tests are included for:
 - Creating and closing auctions
 - Valid and invalid bids
 - Expected exceptions and business rule enforcement
+
+## Assumptions
+
+- A vehicle can have **only one active auction** at a time.
+- Vehicle uniqueness is enforced using a `Guid` identifier.
+- No database or UI is required.
+- Authentication is not included.
+- All data is temporary and stored in memory.
